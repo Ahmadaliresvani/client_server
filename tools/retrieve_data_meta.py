@@ -59,7 +59,7 @@ def request_price(currency_name, time_interval: int, number_retrieve_rows: int,
                         "last frame time == last time downloaded, {}=={}, sleep for 1 seconds and try again".format(
                             last_frame_time, last_time_downloaded
                         ))
-                    object_for_report(f"candle time lower system time but , not created new candle.\n")
+                    object_for_report("candle time lower system time but , not created new candle.\n")
                     object_for_report("system time: {}, datatime: {}, last downloaded time: {}.\n".format(
                         get_forex_time_naive().strftime("%H:%M:%S"),
                         last_frame_time.strftime("%H:%M:%S"),
@@ -73,7 +73,7 @@ def request_price(currency_name, time_interval: int, number_retrieve_rows: int,
                     last_frame_time, get_forex_time_naive()
                 ))
                 retrieve_logger.info("sleep for 1 seconds and try again")
-                object_for_report("data time lower system time!!ststem time: {}, datatime: {}.".format(
+                object_for_report("data time lower system time!!system time: {}, datatime: {}.".format(
                     get_forex_time_naive().strftime("%H:%M:%S"),
                     last_frame_time.strftime("%H:%M:%S")
                 ))
