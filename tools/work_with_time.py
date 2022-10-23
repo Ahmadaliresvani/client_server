@@ -1,6 +1,7 @@
 import datetime
-import pytz, os
 import MetaTrader5 as mt
+import os
+import pytz
 
 dir_path = os.path.dirname(os.path.abspath(__file__))
 
@@ -30,3 +31,22 @@ def convert_time_interval_metatrader_time(time_name):
         return mt.TIMEFRAME_H4
     else:
         raise ValueError("time interval not allowed")
+
+
+def convert_metatrader_time_to_delta_time(meta_time):
+    if meta_time == mt.TIMEFRAME_M1:
+        return datetime.timedelta(minutes=1)
+    elif meta_time == mt.TIMEFRAME_M5:
+        return datetime.timedelta(minutes=5)
+    elif meta_time == mt.TIMEFRAME_M10:
+        return datetime.timedelta(minutes=10)
+    elif meta_time == mt.TIMEFRAME_M15:
+        return datetime.timedelta(minutes=15)
+    elif meta_time == mt.TIMEFRAME_M30:
+        return datetime.timedelta(minutes=30)
+    elif meta_time == mt.TIMEFRAME_H1:
+        return datetime.timedelta(hours=1)
+    elif meta_time == mt.TIMEFRAME_H4:
+        return datetime.timedelta(hours=4)
+    else:
+        raise ValueError("meta time interval not allowed")
