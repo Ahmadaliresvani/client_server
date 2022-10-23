@@ -22,7 +22,7 @@ def request_price(currency_name, time_interval: int, number_retrieve_rows: int,
 
     data = {}
     for name in currency_name:
-        object_for_report(f"start download data for {name.upper()}.\n")
+        object_for_report("start download data for {}.\n".format(name.upper()))
         retrieve_logger.info("start download data from meta for {}".format(name))
         while True:
             rates = Mt.copy_rates_from_pos(name.upper(), time_interval, 0, number_retrieve_rows)
