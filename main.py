@@ -1,16 +1,16 @@
-# importing the eel library  
-import json
 import datetime
+import json
+import os
+import time
 import eel
 import pandas as pd
 import pytz
+from root_dir import root_dir
+from tools import retrieve_data_meta
 from tools.logger_code import create_logger
 from tools.retrieve_data_meta import request_price
-from tools import retrieve_data_meta
 from tools.send_data import send_data_to_server
 from tools.work_with_time import convert_time_interval_metatrader_time
-import time, os
-from root_dir import root_dir
 
 # create report dir (for save logger) if need(not exists)!!
 if not os.path.exists(os.path.join(root_dir, "report_dir")):
