@@ -1,4 +1,4 @@
-import MetaTrader5 as mt
+import MetaTrader5 as Mt
 import pandas as pd
 import time, os
 from tools.logger_code import create_logger
@@ -15,7 +15,7 @@ def request_price(currency_name, time_interval: int, number_retrieve_rows: int,
     global last_time_downloaded
     retrieve_logger.info("start retrieve data from meta")
     return_data = {'state': False}
-    if not mt.initialize(timeout=10000):
+    if not Mt.initialize(timeout=10000):
         retrieve_logger.info("after 10 seconds not initial metaTrader")
         return return_data
     retrieve_logger.info("successful initial metaTrader")
@@ -25,7 +25,7 @@ def request_price(currency_name, time_interval: int, number_retrieve_rows: int,
         object_for_report(f"start download data for {name.upper()}.\n")
         retrieve_logger.info("start download data from meta for {}".format(name))
         while True:
-            rates = mt.copy_rates_from_pos(name.upper(), time_interval, 0, number_retrieve_rows)
+            rates = Mt.copy_rates_from_pos(name.upper(), time_interval, 0, number_retrieve_rows)
 
             rates_frame = pd.DataFrame(rates)
             rates_frame['time'] = pd.to_datetime(rates_frame['time'], unit='s')
