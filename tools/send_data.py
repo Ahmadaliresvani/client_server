@@ -21,7 +21,7 @@ def send_data_to_server(data: dict | pd.DataFrame, server_url: str, time_out: fl
         parameters : if methods(requests type) is GET, we use parameters as dict (key:value) for query string
     """
     send_data_logger.info("start send to server")
-    # cheak data type and contents...
+    # check data type and contents...
     if isinstance(data, pd.DataFrame):
         send_data_logger.info("data type is data Frame and convert to json")
         data = data.to_json(orient='split', index=False)

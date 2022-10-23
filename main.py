@@ -1,6 +1,7 @@
 import datetime
 import json
 import os
+import csv
 import time
 import eel
 import pandas as pd
@@ -96,6 +97,7 @@ def send_data(data, user_id, url_address):
                                       parameters=None)
     main_logger.info("return state from server== {}".format(return_send))
     if return_send["state"] == 'ok':
+
         main_logger.info("successful send data to server...")
         eel.insert_text("successful send data to server\n")
         eel.insert_text(50 * "-" + "\n")
