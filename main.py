@@ -36,12 +36,12 @@ eel.init("html_folder")
 
 @eel.expose
 def stop_btn_clicked():
-    # clear history of retrive data
+    # clear history of retrieve data
     retrieve_data_meta.last_time_downloaded = None
     main_logger.log("stop btn clicked")
 
 
-# get roboforex time 
+# get robo-forex time
 def get_forex_time():
     tz = pytz.timezone("EET")
     return datetime.datetime.now(tz).replace(tzinfo=None)
