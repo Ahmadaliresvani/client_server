@@ -50,7 +50,7 @@ def request_price(currency_name, time_interval: int, number_retrieve_rows: int,
                         last_frame_time, last_time_downloaded
                     ))
                     # we change last time request when finish all request
-                    object_for_report(f"data for {name.upper()} downloaded.\n")
+                    object_for_report("data for {} downloaded.\n".format(name.upper()))
                     data[name] = rates_frame.to_dict(orient='list')
                     next_time_request = last_frame_time + (last_frame_time - pre_last_frame_time)
                     break
