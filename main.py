@@ -68,14 +68,14 @@ def get_data(user_id, url_address, time_interval):
     else:
         main_logger.info("successful in request price from meta")
         main_logger.info("start send data to server")
-        send_data(prepear_data(result["data"]), user_id=user_id, url_address=url_address)
+        send_data(prepare_data(result["data"]), user_id=user_id, url_address=url_address)
         # define next time request
         # +03:00 time zone EET
         eel.start_stop_time_remaining("start",
                                       result["next_request_time"].strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "+03:00")
 
 
-def prepear_data(data):
+def prepare_data(data):
     main_logger.info("start prepare data for send to server")
     if isinstance(data, dict):
         main_logger.info("data type is dict and convert to json")
