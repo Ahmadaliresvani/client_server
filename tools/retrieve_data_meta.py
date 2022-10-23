@@ -37,7 +37,7 @@ def request_price(currency_name, time_interval: int, number_retrieve_rows: int,
                 retrieve_logger.info("last frame time: {}, system time: {}, interval: {}".format(
                     last_frame_time, get_forex_time_naive(), convert_metatrader_time_to_delta_time(time_interval)
                 ))
-                object_for_report("space between now time and meta time greater than interval ...after 2 seconds try again")
+                object_for_report("space between now time and meta time greater than interval ...after 2 seconds try again\n")
                 time.sleep(2)
                 continue
             if last_frame_time < get_forex_time_naive():
