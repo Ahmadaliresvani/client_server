@@ -1,0 +1,17 @@
+2022-10-23 19:09:50,894  start retrieve data from meta
+2022-10-23 19:09:53,108  successful initial metaTrader
+2022-10-23 19:09:53,108  start download data from meta for btcusd
+2022-10-23 19:09:53,124  last time frame < system time : 2022-10-23 13:21:00 < 2022-10-23 19:09:53.124994
+2022-10-23 19:09:53,124  last time frame != last time downloaded , 2022-10-23 13:21:00!=None
+2022-10-23 19:09:53,673  start retrieve data from meta
+2022-10-23 19:09:53,676  successful initial metaTrader
+2022-10-23 19:09:53,676  start download data from meta for btcusd
+2022-10-23 19:09:53,676  last time frame < system time : 2022-10-23 19:09:00 < 2022-10-23 19:09:53.676743
+2022-10-23 19:09:53,676  last time frame != last time downloaded , 2022-10-23 19:09:00!=2022-10-23 13:21:00
+2022-10-23 19:10:00,078  start retrieve data from meta
+2022-10-23 19:10:00,087  successful initial metaTrader
+2022-10-23 19:10:00,087  start download data from meta for btcusd
+2022-10-23 19:10:00,088  last time frame < system time : 2022-10-23 19:09:00 < 2022-10-23 19:10:00.088924
+2022-10-23 19:10:00,088  last frame time == last time downloaded, 2022-10-23 19:09:00==2022-10-23 19:09:00, sleep for 1 seconds and try again
+2022-10-23 19:10:01,097  last time frame < system time : 2022-10-23 19:10:00 < 2022-10-23 19:10:01.097825
+2022-10-23 19:10:01,097  last time frame != last time downloaded , 2022-10-23 19:10:00!=2022-10-23 19:09:00

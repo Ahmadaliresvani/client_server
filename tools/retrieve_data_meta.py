@@ -1,22 +1,29 @@
 import MetaTrader5 as mt
 import pandas as pd
-import time
+import time, os
+from tools.logger_code import create_logger
 from tools.work_with_time import get_forex_time_naive
+from root_dir import root_dir
+
+retrieve_logger = create_logger("retrieve_looger", os.path.join(root_dir, "report_dir"))
 
 last_time_downloaded = None
 
 
-def request_price(currency_name, time_interval:int, number_retrieve_rows:int,
-                    sleep_time_for_wait:float, object_for_report):
+def request_price(currency_name, time_interval: int, number_retrieve_rows: int,
+                  sleep_time_for_wait: float, object_for_report):
     global last_time_downloaded
-
-    return_data = {'state':False}
+    retrieve_logger.info("start retrieve data from meta")
+    return_data = {'state': False}
     if not mt.initialize(timeout=10000):
+        retrieve_logger.info("after 10 seconds not initial metaTrader")
         return return_data
+    retrieve_logger.info("successful initial metaTrader")
+
     data = {}
     for name in currency_name:
         object_for_report(f"start download data for {name.upper()}.\n")
-
+        retrieve_logger.info("start download data from meta for {}".format(name))
         while True:
             rates = mt.copy_rates_from_pos(name.upper(), time_interval, 0, number_retrieve_rows)
 
@@ -25,13 +32,22 @@ def request_price(currency_name, time_interval:int, number_retrieve_rows:int,
             pre_last_frame_time = rates_frame.iloc[-2]["time"]
             last_frame_time = rates_frame.iloc[-1]["time"]
             if last_frame_time < get_forex_time_naive():
+                retrieve_logger.info("last time frame < system time : {} < {}".format(
+                    last_frame_time, get_forex_time_naive()))
                 if last_frame_time != last_time_downloaded:
+                    retrieve_logger.info("last time frame != last time downloaded , {}!={}".format(
+                        last_frame_time, last_time_downloaded
+                    ))
                     # we change last time request when finish all request
                     object_for_report(f"data for {name.upper()} downloaded.\n")
                     data[name] = rates_frame.to_dict(orient='list')
-                    next_time_request = last_frame_time + (last_frame_time-pre_last_frame_time)
+                    next_time_request = last_frame_time + (last_frame_time - pre_last_frame_time)
                     break
                 else:
+                    retrieve_logger.info(
+                        "last frame time == last time downloaded, {}=={}, sleep for 1 seconds and try again".format(
+                            last_frame_time, last_time_downloaded
+                        ))
                     object_for_report(f"candle time lower system time but , not created new candle.\n")
                     object_for_report("system time: {}, datatime: {}, last downloaded time: {}.\n".format(
                         get_forex_time_naive().strftime("%H:%M:%S"),
@@ -42,6 +58,10 @@ def request_price(currency_name, time_interval:int, number_retrieve_rows:int,
                     continue
             else:
                 # we need new data....
+                retrieve_logger.info("last time frame >= system time : {} >= {}".format(
+                    last_frame_time, get_forex_time_naive()
+                ))
+                retrieve_logger.info("sleep for 1 seconds and try again")
                 object_for_report("data time lower system time!!ststem time: {}, datatime: {}.".format(
                     get_forex_time_naive().strftime("%H:%M:%S"),
                     last_frame_time.strftime("%H:%M:%S")
@@ -49,10 +69,8 @@ def request_price(currency_name, time_interval:int, number_retrieve_rows:int,
                 time.sleep(1)
                 continue
 
-
-    return_data['state']=True
-    return_data['data']=data
-    return_data["next_request_time"]=next_time_request
-    last_time_downloaded  = last_frame_time
+    return_data['state'] = True
+    return_data['data'] = data
+    return_data["next_request_time"] = next_time_request
+    last_time_downloaded = last_frame_time
     return return_data
-

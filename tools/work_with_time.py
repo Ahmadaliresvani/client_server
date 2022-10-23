@@ -1,13 +1,17 @@
 import datetime
-from time import time
-import pytz
+import pytz, os
 import MetaTrader5 as mt
+
+dir_path = os.path.dirname(os.path.abspath(__file__))
+
 
 def get_forex_time():
     return datetime.datetime.now(pytz.timezone("EET"))
 
+
 def get_forex_time_naive():
     return datetime.datetime.now(pytz.timezone("EET")).replace(tzinfo=None)
+
 
 def convert_time_interval_metatrader_time(time_name):
     if time_name == '1m':
