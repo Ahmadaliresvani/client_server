@@ -1,0 +1,5 @@
+eel
+pandas
+numpy
+pytz
+MetaTrader5

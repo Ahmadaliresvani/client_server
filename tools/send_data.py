@@ -1,10 +1,6 @@
 from datetime import datetime
-import json
-from unittest import result
-from flask import request_started
 import pytz
 import requests
-import json
 import pandas as pd
 
 def send_data_to_server(data:dict|pd.DataFrame, server_url:str, time_out:float, 
