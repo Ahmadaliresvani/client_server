@@ -11,8 +11,9 @@ send_data_logger = create_logger("send_data_to_server", dir_name=os.path.join(ro
 
 def send_data_to_server(data: dict | pd.DataFrame, server_url: str, time_out: float,
                         header: dict, methods: str = 'POST', parameters=None):
-    """This function used for send data to specifiec server
+    """This function used for send data to specific server
     Parameters: 
+        methods:
         data: a json file that send to server (out put like: {"columns":[....], "data":[.....]})
         server_url: a server adreess (or any url that we must send data to it) in string
         time_out: a time out for send request to server (after finish timeout return eerror code)
