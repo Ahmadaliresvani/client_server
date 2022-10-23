@@ -76,7 +76,7 @@ def get_data(user_id, url_address, time_interval):
 
 
 def prepear_data(data):
-    main_logger.info("start prepear data for send to server")
+    main_logger.info("start prepare data for send to server")
     if isinstance(data, dict):
         main_logger.info("data type is dict and convert to json")
         return json.dumps(data, cls=JsonEncoderTimeStamp)
@@ -86,7 +86,7 @@ def prepear_data(data):
         return data
     else:
         main_logger.info("error in data type, data tye=={}".format(type(data)))
-        raise TypeError("only dict or dataframe sended to server!!!")
+        raise TypeError("only dict or dataframe sent to server!!!")
 
 
 def send_data(data, user_id, url_address):
