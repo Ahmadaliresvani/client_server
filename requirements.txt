@@ -3,3 +3,4 @@ pandas
 numpy
 pytz
 MetaTrader5
+requests
