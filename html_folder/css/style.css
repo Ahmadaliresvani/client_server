@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(165, 225, 225);
+}
+textarea{
+    background-color: rgb(210, 240, 240);
+}
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+}
+.container .header{
+    display: flex;
+    height: 5vh;
+}
+.container .first_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    height: 15vh;
+    max-width: 100vw;
+}
+.container .second_row {
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    max-width: 100vw;
+}
+.container .third_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.container .first_row .start{
+    width: 12%;
+    height: 100%;
+}
+.container .first_row .forex_time{
+    width: 41%;
+}
+.container .first_row .time_remaning {
+    width: 45%;
+}
+.container .first_row .start > button{
+    border-width: 0.1vh 0.1vw;
+    padding: 0 0.9vw;
+    border-style: solid;
+    width: 12vw;
+    height: 10vh;
+    margin: 2.5vh 1vw;
+    font-size: 3vw;
+    border-radius: 1vh;
+    text-align: center;
+}
+.container .first_row .start > button:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+.container .first_row .forex_time{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+
+.container .first_row .forex_time #forex_clock_lable {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    margin: 0.25vh 5vw ;
+    padding: 1vh 2.5vw;
+    width: 30vw;
+    font-size: 3vw;
+}
+.container .first_row .forex_time #forex_clock {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    margin: 0.25vh 5vw ;
+    padding: 1vh 2.5vw;
+    width: 30vw;
+    font-size: 4vw;
+}
+.container .first_row .time_remaning {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+.container .first_row .time_remaning #remain_time_clock_lable{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    margin: 0.25vh 5vw ;
+    padding: 1vh 2.5vw;
+    width: 30vw;
+    font-size: 3vw;
+}
+
+.container .first_row .time_remaning #remain_time_clock{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    margin: 0.25vh 5vw ;
+    padding: 1vh 2.5vw;
+    width: 30vw;
+    font-size: 4vw;
+}
+.container .second_row #lable_text_area{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    font-size: 4vw;
+    padding: 3vh 0 2vh 0;
+}
+.container .second_row #text_area{
+    height: 55vh;
+    border-width: 0 1vw 1vh 1vw;
+    font-size: 2vw;
+    resize: vertical;
+    white-space: pre;
+}
+
+.container .header .user_input {
+    display: flex;
+    width: 25%;
+    align-items: center;
+}
+.container .header .user_input> *{
+    height: 90%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+.container .header .user_input > label{
+    display: block;
+    width: 35%;
+    height: 3.5vh;
+    padding: 1.5vh 2.5% 0%;
+    font-size: 2vh;
+}
+.container .header .user_input > input {
+    width: 55%;
+    font-size: 2vh;
+    padding: 2% 0;
+}
+
+.container .header .url_address {
+    display: flex;
+    width: 25%;
+    align-items: center;
+}
+.container .header .url_address> *{
+    height: 90%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+.container .header .url_address > label{
+    display: block;
+    width: 35%;
+    height: 3.5vh;
+    padding: 1.5vh 2.5% 0%;
+    font-size: 2vh;
+}
+.container .header .url_address > input {
+    width: 55%;
+    font-size: 2vh;
+    padding: 2% 0;
+}
+.container .header .interval_time{
+    width: 20vw;
+    height: 100%;
+}
+.container .header .interval_time > select{
+    width: 60%;
+    height: 100%;
+    font-size: 2vh;
+}
+.container .header .interval_time select > option{
+    font-size: 1vh;
+}
+.container .header .confirm {
+    height: 100%;
+    width: 30vw;
+}
+.container .header .confirm > * {
+    height: 100%;
+    width: 60%;
+    font-size: 2vw;
+    background-color: rgb(150, 221, 221);
+}
+.container .header .confirm button:hover{
+    background-color: rgb(202, 124, 124);
+}
+
+select {
+    border-radius: 2vw;
+}
+input {
+    border-radius: 2vw;
+}
+button {
+    border-radius: 2vw;
+}
+.select-currency {
+    padding: 10vh 2vw 0;
+
+}
+
