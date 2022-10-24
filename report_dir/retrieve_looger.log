@@ -1,0 +1,388 @@
+2022-10-25 12:11:03,627  start retrieve data from meta
+2022-10-25 12:11:03,637  successful initial metaTrader
+2022-10-25 12:11:03,637  start download data from meta for eurusd
+2022-10-25 12:11:03,662  last time frame < system time : 2022-10-25 12:11:00 < 2022-10-25 12:11:03.662217
+2022-10-25 12:11:03,662  last time frame != last time downloaded , 2022-10-25 12:11:00!=None
+2022-10-25 12:11:03,663  start download data from meta for audjpy
+2022-10-25 12:11:03,668  last time frame < system time : 2022-10-25 12:11:00 < 2022-10-25 12:11:03.668216
+2022-10-25 12:11:03,668  last time frame != last time downloaded , 2022-10-25 12:11:00!=None
+2022-10-25 12:12:02,314  start retrieve data from meta
+2022-10-25 12:12:02,320  successful initial metaTrader
+2022-10-25 12:12:02,320  start download data from meta for eurusd
+2022-10-25 12:12:02,322  last time frame < system time : 2022-10-25 12:12:00 < 2022-10-25 12:12:02.322059
+2022-10-25 12:12:02,322  last time frame != last time downloaded , 2022-10-25 12:12:00!=2022-10-25 12:11:00
+2022-10-25 12:12:02,322  start download data from meta for audjpy
+2022-10-25 12:12:02,324  last time frame < system time : 2022-10-25 12:12:00 < 2022-10-25 12:12:02.324064
+2022-10-25 12:12:02,325  last time frame != last time downloaded , 2022-10-25 12:12:00!=2022-10-25 12:11:00
+2022-10-25 12:14:05,487  start retrieve data from meta
+2022-10-25 12:14:05,494  successful initial metaTrader
+2022-10-25 12:14:05,495  start download data from meta for eurusd
+2022-10-25 12:14:05,496  last time frame < system time : 2022-10-25 12:14:00 < 2022-10-25 12:14:05.496799
+2022-10-25 12:14:05,496  last time frame != last time downloaded , 2022-10-25 12:14:00!=2022-10-25 12:12:00
+2022-10-25 12:14:05,497  start download data from meta for audjpy
+2022-10-25 12:14:05,498  last time frame < system time : 2022-10-25 12:14:00 < 2022-10-25 12:14:05.498796
+2022-10-25 12:14:05,499  last time frame != last time downloaded , 2022-10-25 12:14:00!=2022-10-25 12:12:00
+2022-10-25 12:15:02,318  start retrieve data from meta
+2022-10-25 12:15:02,327  successful initial metaTrader
+2022-10-25 12:15:02,327  start download data from meta for eurusd
+2022-10-25 12:15:02,329  last time frame < system time : 2022-10-25 12:15:00 < 2022-10-25 12:15:02.329285
+2022-10-25 12:15:02,329  last time frame != last time downloaded , 2022-10-25 12:15:00!=2022-10-25 12:14:00
+2022-10-25 12:15:02,330  start download data from meta for audjpy
+2022-10-25 12:15:02,331  last time frame < system time : 2022-10-25 12:15:00 < 2022-10-25 12:15:02.331492
+2022-10-25 12:15:02,331  last time frame != last time downloaded , 2022-10-25 12:15:00!=2022-10-25 12:14:00
+2022-10-25 12:15:35,988  start retrieve data from meta
+2022-10-25 12:15:35,994  successful initial metaTrader
+2022-10-25 12:15:35,994  start download data from meta for eurusd
+2022-10-25 12:15:35,995  last time frame < system time : 2022-10-25 12:15:00 < 2022-10-25 12:15:35.995857
+2022-10-25 12:15:35,995  last time frame != last time downloaded , 2022-10-25 12:15:00!=None
+2022-10-25 12:15:35,996  start download data from meta for audjpy
+2022-10-25 12:15:35,997  last time frame < system time : 2022-10-25 12:15:00 < 2022-10-25 12:15:35.997858
+2022-10-25 12:15:35,997  last time frame != last time downloaded , 2022-10-25 12:15:00!=None
+2022-10-25 12:16:01,323  start retrieve data from meta
+2022-10-25 12:16:01,330  successful initial metaTrader
+2022-10-25 12:16:01,330  start download data from meta for eurusd
+2022-10-25 12:16:01,332  last time frame < system time : 2022-10-25 12:16:00 < 2022-10-25 12:16:01.332013
+2022-10-25 12:16:01,332  last time frame != last time downloaded , 2022-10-25 12:16:00!=2022-10-25 12:15:00
+2022-10-25 12:16:01,332  start download data from meta for audjpy
+2022-10-25 12:16:01,333  last time frame < system time : 2022-10-25 12:16:00 < 2022-10-25 12:16:01.333013
+2022-10-25 12:16:01,334  last time frame != last time downloaded , 2022-10-25 12:16:00!=2022-10-25 12:15:00
+2022-10-25 12:17:02,312  start retrieve data from meta
+2022-10-25 12:17:02,328  successful initial metaTrader
+2022-10-25 12:17:02,329  start download data from meta for eurusd
+2022-10-25 12:17:02,329  space between request time and data time greater than time interval after 2 seconds try again
+2022-10-25 12:17:02,329  last frame time: 2022-10-25 12:16:00, system time: 2022-10-25 12:17:02.329990, interval: 0:01:00
+2022-10-25 12:17:04,333  space between request time and data time greater than time interval after 2 seconds try again
+2022-10-25 12:17:04,333  last frame time: 2022-10-25 12:16:00, system time: 2022-10-25 12:17:04.333214, interval: 0:01:00
+2022-10-25 12:17:06,346  last time frame < system time : 2022-10-25 12:17:00 < 2022-10-25 12:17:06.346149
+2022-10-25 12:17:06,346  last time frame != last time downloaded , 2022-10-25 12:17:00!=2022-10-25 12:16:00
+2022-10-25 12:17:06,347  start download data from meta for audjpy
+2022-10-25 12:17:06,349  last time frame < system time : 2022-10-25 12:17:00 < 2022-10-25 12:17:06.349149
+2022-10-25 12:17:06,349  last time frame != last time downloaded , 2022-10-25 12:17:00!=2022-10-25 12:16:00
+2022-10-25 12:18:01,381  start retrieve data from meta
+2022-10-25 12:18:01,389  successful initial metaTrader
+2022-10-25 12:18:01,389  start download data from meta for eurusd
+2022-10-25 12:18:01,391  last time frame < system time : 2022-10-25 12:18:00 < 2022-10-25 12:18:01.391411
+2022-10-25 12:18:01,391  last time frame != last time downloaded , 2022-10-25 12:18:00!=2022-10-25 12:17:00
+2022-10-25 12:18:01,391  start download data from meta for audjpy
+2022-10-25 12:18:01,393  last time frame < system time : 2022-10-25 12:18:00 < 2022-10-25 12:18:01.393411
+2022-10-25 12:18:01,393  last time frame != last time downloaded , 2022-10-25 12:18:00!=2022-10-25 12:17:00
+2022-10-25 12:19:02,309  start retrieve data from meta
+2022-10-25 12:19:02,315  successful initial metaTrader
+2022-10-25 12:19:02,315  start download data from meta for eurusd
+2022-10-25 12:19:02,318  last time frame < system time : 2022-10-25 12:19:00 < 2022-10-25 12:19:02.318519
+2022-10-25 12:19:02,318  last time frame != last time downloaded , 2022-10-25 12:19:00!=2022-10-25 12:18:00
+2022-10-25 12:19:02,318  start download data from meta for audjpy
+2022-10-25 12:19:02,320  last time frame < system time : 2022-10-25 12:19:00 < 2022-10-25 12:19:02.320519
+2022-10-25 12:19:02,320  last time frame != last time downloaded , 2022-10-25 12:19:00!=2022-10-25 12:18:00
+2022-10-25 12:20:02,309  start retrieve data from meta
+2022-10-25 12:20:02,317  successful initial metaTrader
+2022-10-25 12:20:02,317  start download data from meta for eurusd
+2022-10-25 12:20:02,319  last time frame < system time : 2022-10-25 12:20:00 < 2022-10-25 12:20:02.319746
+2022-10-25 12:20:02,319  last time frame != last time downloaded , 2022-10-25 12:20:00!=2022-10-25 12:19:00
+2022-10-25 12:20:02,320  start download data from meta for audjpy
+2022-10-25 12:20:02,321  last time frame < system time : 2022-10-25 12:20:00 < 2022-10-25 12:20:02.321743
+2022-10-25 12:20:02,322  last time frame != last time downloaded , 2022-10-25 12:20:00!=2022-10-25 12:19:00
+2022-10-25 12:21:02,305  start retrieve data from meta
+2022-10-25 12:21:02,321  successful initial metaTrader
+2022-10-25 12:21:02,321  start download data from meta for eurusd
+2022-10-25 12:21:02,324  last time frame < system time : 2022-10-25 12:21:00 < 2022-10-25 12:21:02.324856
+2022-10-25 12:21:02,324  last time frame != last time downloaded , 2022-10-25 12:21:00!=2022-10-25 12:20:00
+2022-10-25 12:21:02,325  start download data from meta for audjpy
+2022-10-25 12:21:02,327  last time frame < system time : 2022-10-25 12:21:00 < 2022-10-25 12:21:02.327855
+2022-10-25 12:21:02,327  last time frame != last time downloaded , 2022-10-25 12:21:00!=2022-10-25 12:20:00
+2022-10-25 12:21:38,357  start retrieve data from meta
+2022-10-25 12:21:38,363  successful initial metaTrader
+2022-10-25 12:21:38,363  start download data from meta for eurusd
+2022-10-25 12:21:38,366  last time frame < system time : 2022-10-25 12:21:00 < 2022-10-25 12:21:38.366637
+2022-10-25 12:21:38,366  last time frame != last time downloaded , 2022-10-25 12:21:00!=None
+2022-10-25 12:21:38,366  start download data from meta for audjpy
+2022-10-25 12:21:38,368  last time frame < system time : 2022-10-25 12:21:00 < 2022-10-25 12:21:38.368638
+2022-10-25 12:21:38,369  last time frame != last time downloaded , 2022-10-25 12:21:00!=None
+2022-10-25 12:22:01,301  start retrieve data from meta
+2022-10-25 12:22:01,307  successful initial metaTrader
+2022-10-25 12:22:01,307  start download data from meta for eurusd
+2022-10-25 12:22:01,309  last time frame < system time : 2022-10-25 12:22:00 < 2022-10-25 12:22:01.309875
+2022-10-25 12:22:01,309  last time frame != last time downloaded , 2022-10-25 12:22:00!=2022-10-25 12:21:00
+2022-10-25 12:22:01,309  start download data from meta for audjpy
+2022-10-25 12:22:01,311  last time frame < system time : 2022-10-25 12:22:00 < 2022-10-25 12:22:01.311875
+2022-10-25 12:22:01,311  last time frame != last time downloaded , 2022-10-25 12:22:00!=2022-10-25 12:21:00
+2022-10-25 12:23:01,310  start retrieve data from meta
+2022-10-25 12:23:01,317  successful initial metaTrader
+2022-10-25 12:23:01,317  start download data from meta for eurusd
+2022-10-25 12:23:01,318  last time frame < system time : 2022-10-25 12:23:00 < 2022-10-25 12:23:01.318883
+2022-10-25 12:23:01,318  last time frame != last time downloaded , 2022-10-25 12:23:00!=2022-10-25 12:22:00
+2022-10-25 12:23:01,319  start download data from meta for audjpy
+2022-10-25 12:23:01,320  last time frame < system time : 2022-10-25 12:23:00 < 2022-10-25 12:23:01.320199
+2022-10-25 12:23:01,321  last time frame != last time downloaded , 2022-10-25 12:23:00!=2022-10-25 12:22:00
+2022-10-25 12:24:02,298  start retrieve data from meta
+2022-10-25 12:24:02,304  successful initial metaTrader
+2022-10-25 12:24:02,304  start download data from meta for eurusd
+2022-10-25 12:24:02,306  last time frame < system time : 2022-10-25 12:24:00 < 2022-10-25 12:24:02.306473
+2022-10-25 12:24:02,306  last time frame != last time downloaded , 2022-10-25 12:24:00!=2022-10-25 12:23:00
+2022-10-25 12:24:02,306  start download data from meta for audjpy
+2022-10-25 12:24:02,308  last time frame < system time : 2022-10-25 12:24:00 < 2022-10-25 12:24:02.308473
+2022-10-25 12:24:02,308  last time frame != last time downloaded , 2022-10-25 12:24:00!=2022-10-25 12:23:00
+2022-10-25 12:25:01,549  start retrieve data from meta
+2022-10-25 12:25:01,556  successful initial metaTrader
+2022-10-25 12:25:01,556  start download data from meta for eurusd
+2022-10-25 12:25:01,558  last time frame < system time : 2022-10-25 12:25:00 < 2022-10-25 12:25:01.558380
+2022-10-25 12:25:01,558  last time frame != last time downloaded , 2022-10-25 12:25:00!=2022-10-25 12:24:00
+2022-10-25 12:25:01,559  start download data from meta for audjpy
+2022-10-25 12:25:01,560  last time frame < system time : 2022-10-25 12:25:00 < 2022-10-25 12:25:01.560386
+2022-10-25 12:25:01,560  last time frame != last time downloaded , 2022-10-25 12:25:00!=2022-10-25 12:24:00
+2022-10-25 12:26:02,308  start retrieve data from meta
+2022-10-25 12:26:02,326  successful initial metaTrader
+2022-10-25 12:26:02,327  start download data from meta for eurusd
+2022-10-25 12:26:02,330  last time frame < system time : 2022-10-25 12:26:00 < 2022-10-25 12:26:02.330884
+2022-10-25 12:26:02,330  last time frame != last time downloaded , 2022-10-25 12:26:00!=2022-10-25 12:25:00
+2022-10-25 12:26:02,331  start download data from meta for audjpy
+2022-10-25 12:26:02,334  last time frame < system time : 2022-10-25 12:26:00 < 2022-10-25 12:26:02.334882
+2022-10-25 12:26:02,334  last time frame != last time downloaded , 2022-10-25 12:26:00!=2022-10-25 12:25:00
+2022-10-25 12:27:01,301  start retrieve data from meta
+2022-10-25 12:27:01,319  successful initial metaTrader
+2022-10-25 12:27:01,319  start download data from meta for eurusd
+2022-10-25 12:27:01,322  last time frame < system time : 2022-10-25 12:27:00 < 2022-10-25 12:27:01.322985
+2022-10-25 12:27:01,323  last time frame != last time downloaded , 2022-10-25 12:27:00!=2022-10-25 12:26:00
+2022-10-25 12:27:01,324  start download data from meta for audjpy
+2022-10-25 12:27:01,326  last time frame < system time : 2022-10-25 12:27:00 < 2022-10-25 12:27:01.326984
+2022-10-25 12:27:01,326  last time frame != last time downloaded , 2022-10-25 12:27:00!=2022-10-25 12:26:00
+2022-10-25 12:27:31,407  start retrieve data from meta
+2022-10-25 12:27:31,415  successful initial metaTrader
+2022-10-25 12:27:31,415  start download data from meta for eurusd
+2022-10-25 12:27:31,417  last time frame < system time : 2022-10-25 12:27:00 < 2022-10-25 12:27:31.417937
+2022-10-25 12:27:31,417  last time frame != last time downloaded , 2022-10-25 12:27:00!=None
+2022-10-25 12:27:31,418  start download data from meta for audjpy
+2022-10-25 12:27:31,419  last time frame < system time : 2022-10-25 12:27:00 < 2022-10-25 12:27:31.419937
+2022-10-25 12:27:31,419  last time frame != last time downloaded , 2022-10-25 12:27:00!=None
+2022-10-25 12:28:01,297  start retrieve data from meta
+2022-10-25 12:28:01,303  successful initial metaTrader
+2022-10-25 12:28:01,303  start download data from meta for eurusd
+2022-10-25 12:28:01,305  last time frame < system time : 2022-10-25 12:28:00 < 2022-10-25 12:28:01.305662
+2022-10-25 12:28:01,305  last time frame != last time downloaded , 2022-10-25 12:28:00!=2022-10-25 12:27:00
+2022-10-25 12:28:01,305  start download data from meta for audjpy
+2022-10-25 12:28:01,306  last time frame < system time : 2022-10-25 12:28:00 < 2022-10-25 12:28:01.306662
+2022-10-25 12:28:01,306  last time frame != last time downloaded , 2022-10-25 12:28:00!=2022-10-25 12:27:00
+2022-10-25 12:29:01,296  start retrieve data from meta
+2022-10-25 12:29:01,303  successful initial metaTrader
+2022-10-25 12:29:01,303  start download data from meta for eurusd
+2022-10-25 12:29:01,304  last time frame < system time : 2022-10-25 12:29:00 < 2022-10-25 12:29:01.304082
+2022-10-25 12:29:01,304  last time frame != last time downloaded , 2022-10-25 12:29:00!=2022-10-25 12:28:00
+2022-10-25 12:29:01,305  start download data from meta for audjpy
+2022-10-25 12:29:01,312  last time frame < system time : 2022-10-25 12:29:00 < 2022-10-25 12:29:01.312221
+2022-10-25 12:29:01,312  last time frame != last time downloaded , 2022-10-25 12:29:00!=2022-10-25 12:28:00
+2022-10-25 12:30:01,299  start retrieve data from meta
+2022-10-25 12:30:01,305  successful initial metaTrader
+2022-10-25 12:30:01,305  start download data from meta for eurusd
+2022-10-25 12:30:01,307  last time frame < system time : 2022-10-25 12:30:00 < 2022-10-25 12:30:01.307938
+2022-10-25 12:30:01,307  last time frame != last time downloaded , 2022-10-25 12:30:00!=2022-10-25 12:29:00
+2022-10-25 12:30:01,308  start download data from meta for audjpy
+2022-10-25 12:30:01,309  last time frame < system time : 2022-10-25 12:30:00 < 2022-10-25 12:30:01.309938
+2022-10-25 12:30:01,309  last time frame != last time downloaded , 2022-10-25 12:30:00!=2022-10-25 12:29:00
+2022-10-25 12:30:10,910  start retrieve data from meta
+2022-10-25 12:30:10,916  successful initial metaTrader
+2022-10-25 12:30:10,917  start download data from meta for eurusd
+2022-10-25 12:30:10,918  last time frame < system time : 2022-10-25 12:30:00 < 2022-10-25 12:30:10.918646
+2022-10-25 12:30:10,918  last time frame != last time downloaded , 2022-10-25 12:30:00!=None
+2022-10-25 12:30:10,919  start download data from meta for audjpy
+2022-10-25 12:30:10,920  last time frame < system time : 2022-10-25 12:30:00 < 2022-10-25 12:30:10.920646
+2022-10-25 12:30:10,920  last time frame != last time downloaded , 2022-10-25 12:30:00!=None
+2022-10-25 12:31:01,300  start retrieve data from meta
+2022-10-25 12:31:01,306  successful initial metaTrader
+2022-10-25 12:31:01,306  start download data from meta for eurusd
+2022-10-25 12:31:01,308  last time frame < system time : 2022-10-25 12:31:00 < 2022-10-25 12:31:01.308601
+2022-10-25 12:31:01,308  last time frame != last time downloaded , 2022-10-25 12:31:00!=2022-10-25 12:30:00
+2022-10-25 12:31:01,308  start download data from meta for audjpy
+2022-10-25 12:31:01,310  last time frame < system time : 2022-10-25 12:31:00 < 2022-10-25 12:31:01.310601
+2022-10-25 12:31:01,310  last time frame != last time downloaded , 2022-10-25 12:31:00!=2022-10-25 12:30:00
+2022-10-25 12:32:01,292  start retrieve data from meta
+2022-10-25 12:32:01,310  successful initial metaTrader
+2022-10-25 12:32:01,310  start download data from meta for eurusd
+2022-10-25 12:32:01,313  last time frame < system time : 2022-10-25 12:32:00 < 2022-10-25 12:32:01.313076
+2022-10-25 12:32:01,313  last time frame != last time downloaded , 2022-10-25 12:32:00!=2022-10-25 12:31:00
+2022-10-25 12:32:01,313  start download data from meta for audjpy
+2022-10-25 12:32:01,315  last time frame < system time : 2022-10-25 12:32:00 < 2022-10-25 12:32:01.315059
+2022-10-25 12:32:01,315  last time frame != last time downloaded , 2022-10-25 12:32:00!=2022-10-25 12:31:00
+2022-10-25 12:33:02,297  start retrieve data from meta
+2022-10-25 12:33:02,303  successful initial metaTrader
+2022-10-25 12:33:02,304  start download data from meta for eurusd
+2022-10-25 12:33:02,305  last time frame < system time : 2022-10-25 12:33:00 < 2022-10-25 12:33:02.305496
+2022-10-25 12:33:02,305  last time frame != last time downloaded , 2022-10-25 12:33:00!=2022-10-25 12:32:00
+2022-10-25 12:33:02,306  start download data from meta for audjpy
+2022-10-25 12:33:02,308  last time frame < system time : 2022-10-25 12:33:00 < 2022-10-25 12:33:02.308487
+2022-10-25 12:33:02,308  last time frame != last time downloaded , 2022-10-25 12:33:00!=2022-10-25 12:32:00
+2022-10-25 12:34:02,291  start retrieve data from meta
+2022-10-25 12:34:02,310  successful initial metaTrader
+2022-10-25 12:34:02,310  start download data from meta for eurusd
+2022-10-25 12:34:02,313  last time frame < system time : 2022-10-25 12:34:00 < 2022-10-25 12:34:02.313899
+2022-10-25 12:34:02,314  last time frame != last time downloaded , 2022-10-25 12:34:00!=2022-10-25 12:33:00
+2022-10-25 12:34:02,315  start download data from meta for audjpy
+2022-10-25 12:34:02,317  last time frame < system time : 2022-10-25 12:34:00 < 2022-10-25 12:34:02.317897
+2022-10-25 12:34:02,317  last time frame != last time downloaded , 2022-10-25 12:34:00!=2022-10-25 12:33:00
+2022-10-25 12:35:02,286  start retrieve data from meta
+2022-10-25 12:35:02,296  successful initial metaTrader
+2022-10-25 12:35:02,296  start download data from meta for eurusd
+2022-10-25 12:35:02,303  last time frame < system time : 2022-10-25 12:35:00 < 2022-10-25 12:35:02.303195
+2022-10-25 12:35:02,303  last time frame != last time downloaded , 2022-10-25 12:35:00!=2022-10-25 12:34:00
+2022-10-25 12:35:02,304  start download data from meta for audjpy
+2022-10-25 12:35:02,319  last time frame < system time : 2022-10-25 12:35:00 < 2022-10-25 12:35:02.318010
+2022-10-25 12:35:02,319  last time frame != last time downloaded , 2022-10-25 12:35:00!=2022-10-25 12:34:00
+2022-10-25 12:36:02,286  start retrieve data from meta
+2022-10-25 12:36:02,292  successful initial metaTrader
+2022-10-25 12:36:02,293  start download data from meta for eurusd
+2022-10-25 12:36:02,294  last time frame < system time : 2022-10-25 12:36:00 < 2022-10-25 12:36:02.294872
+2022-10-25 12:36:02,294  last time frame != last time downloaded , 2022-10-25 12:36:00!=2022-10-25 12:35:00
+2022-10-25 12:36:02,295  start download data from meta for audjpy
+2022-10-25 12:36:02,296  last time frame < system time : 2022-10-25 12:36:00 < 2022-10-25 12:36:02.296877
+2022-10-25 12:36:02,296  last time frame != last time downloaded , 2022-10-25 12:36:00!=2022-10-25 12:35:00
+2022-10-25 12:37:02,294  start retrieve data from meta
+2022-10-25 12:37:02,313  successful initial metaTrader
+2022-10-25 12:37:02,313  start download data from meta for eurusd
+2022-10-25 12:37:02,316  last time frame < system time : 2022-10-25 12:37:00 < 2022-10-25 12:37:02.316838
+2022-10-25 12:37:02,316  last time frame != last time downloaded , 2022-10-25 12:37:00!=2022-10-25 12:36:00
+2022-10-25 12:37:02,317  start download data from meta for audjpy
+2022-10-25 12:37:02,320  last time frame < system time : 2022-10-25 12:37:00 < 2022-10-25 12:37:02.320831
+2022-10-25 12:37:02,320  last time frame != last time downloaded , 2022-10-25 12:37:00!=2022-10-25 12:36:00
+2022-10-25 12:38:16,292  start retrieve data from meta
+2022-10-25 12:38:16,312  successful initial metaTrader
+2022-10-25 12:38:16,312  start download data from meta for eurusd
+2022-10-25 12:38:16,315  last time frame < system time : 2022-10-25 12:38:00 < 2022-10-25 12:38:16.315885
+2022-10-25 12:38:16,315  last time frame != last time downloaded , 2022-10-25 12:38:00!=2022-10-25 12:37:00
+2022-10-25 12:38:16,317  start download data from meta for audjpy
+2022-10-25 12:38:16,319  last time frame < system time : 2022-10-25 12:38:00 < 2022-10-25 12:38:16.319879
+2022-10-25 12:38:16,319  last time frame != last time downloaded , 2022-10-25 12:38:00!=2022-10-25 12:37:00
+2022-10-25 12:39:16,285  start retrieve data from meta
+2022-10-25 12:39:16,294  successful initial metaTrader
+2022-10-25 12:39:16,294  start download data from meta for eurusd
+2022-10-25 12:39:16,295  last time frame < system time : 2022-10-25 12:39:00 < 2022-10-25 12:39:16.295602
+2022-10-25 12:39:16,295  last time frame != last time downloaded , 2022-10-25 12:39:00!=2022-10-25 12:38:00
+2022-10-25 12:39:16,296  start download data from meta for audjpy
+2022-10-25 12:39:16,297  last time frame < system time : 2022-10-25 12:39:00 < 2022-10-25 12:39:16.297601
+2022-10-25 12:39:16,298  last time frame != last time downloaded , 2022-10-25 12:39:00!=2022-10-25 12:38:00
+2022-10-25 12:40:16,291  start retrieve data from meta
+2022-10-25 12:40:16,299  successful initial metaTrader
+2022-10-25 12:40:16,299  start download data from meta for eurusd
+2022-10-25 12:40:16,301  last time frame < system time : 2022-10-25 12:40:00 < 2022-10-25 12:40:16.301339
+2022-10-25 12:40:16,301  last time frame != last time downloaded , 2022-10-25 12:40:00!=2022-10-25 12:39:00
+2022-10-25 12:40:16,301  start download data from meta for audjpy
+2022-10-25 12:40:16,302  last time frame < system time : 2022-10-25 12:40:00 < 2022-10-25 12:40:16.302340
+2022-10-25 12:40:16,303  last time frame != last time downloaded , 2022-10-25 12:40:00!=2022-10-25 12:39:00
+2022-10-25 12:41:16,293  start retrieve data from meta
+2022-10-25 12:41:16,298  successful initial metaTrader
+2022-10-25 12:41:16,299  start download data from meta for eurusd
+2022-10-25 12:41:16,300  last time frame < system time : 2022-10-25 12:41:00 < 2022-10-25 12:41:16.300900
+2022-10-25 12:41:16,300  last time frame != last time downloaded , 2022-10-25 12:41:00!=2022-10-25 12:40:00
+2022-10-25 12:41:16,301  start download data from meta for audjpy
+2022-10-25 12:41:16,302  last time frame < system time : 2022-10-25 12:41:00 < 2022-10-25 12:41:16.302901
+2022-10-25 12:41:16,303  last time frame != last time downloaded , 2022-10-25 12:41:00!=2022-10-25 12:40:00
+2022-10-25 12:42:14,380  start retrieve data from meta
+2022-10-25 12:42:14,387  successful initial metaTrader
+2022-10-25 12:42:14,387  start download data from meta for eurusd
+2022-10-25 12:42:14,388  last time frame < system time : 2022-10-25 12:42:00 < 2022-10-25 12:42:14.388943
+2022-10-25 12:42:14,389  last time frame != last time downloaded , 2022-10-25 12:42:00!=2022-10-25 12:41:00
+2022-10-25 12:42:14,389  start download data from meta for audjpy
+2022-10-25 12:42:14,392  last time frame < system time : 2022-10-25 12:42:00 < 2022-10-25 12:42:14.392946
+2022-10-25 12:42:14,392  last time frame != last time downloaded , 2022-10-25 12:42:00!=2022-10-25 12:41:00
+2022-10-25 12:43:01,287  start retrieve data from meta
+2022-10-25 12:43:01,295  successful initial metaTrader
+2022-10-25 12:43:01,295  start download data from meta for eurusd
+2022-10-25 12:43:01,296  last time frame < system time : 2022-10-25 12:43:00 < 2022-10-25 12:43:01.296618
+2022-10-25 12:43:01,296  last time frame != last time downloaded , 2022-10-25 12:43:00!=2022-10-25 12:42:00
+2022-10-25 12:43:01,297  start download data from meta for audjpy
+2022-10-25 12:43:01,299  last time frame < system time : 2022-10-25 12:43:00 < 2022-10-25 12:43:01.299404
+2022-10-25 12:43:01,299  last time frame != last time downloaded , 2022-10-25 12:43:00!=2022-10-25 12:42:00
+2022-10-25 12:44:02,285  start retrieve data from meta
+2022-10-25 12:44:02,305  successful initial metaTrader
+2022-10-25 12:44:02,305  start download data from meta for eurusd
+2022-10-25 12:44:02,308  last time frame < system time : 2022-10-25 12:44:00 < 2022-10-25 12:44:02.308039
+2022-10-25 12:44:02,308  last time frame != last time downloaded , 2022-10-25 12:44:00!=2022-10-25 12:43:00
+2022-10-25 12:44:02,309  start download data from meta for audjpy
+2022-10-25 12:44:02,312  last time frame < system time : 2022-10-25 12:44:00 < 2022-10-25 12:44:02.312035
+2022-10-25 12:44:02,312  last time frame != last time downloaded , 2022-10-25 12:44:00!=2022-10-25 12:43:00
+2022-10-25 12:45:01,284  start retrieve data from meta
+2022-10-25 12:45:01,292  successful initial metaTrader
+2022-10-25 12:45:01,292  start download data from meta for eurusd
+2022-10-25 12:45:01,293  last time frame < system time : 2022-10-25 12:45:00 < 2022-10-25 12:45:01.293032
+2022-10-25 12:45:01,293  last time frame != last time downloaded , 2022-10-25 12:45:00!=2022-10-25 12:44:00
+2022-10-25 12:45:01,294  start download data from meta for audjpy
+2022-10-25 12:45:01,295  last time frame < system time : 2022-10-25 12:45:00 < 2022-10-25 12:45:01.295695
+2022-10-25 12:45:01,295  last time frame != last time downloaded , 2022-10-25 12:45:00!=2022-10-25 12:44:00
+2022-10-25 12:46:01,290  start retrieve data from meta
+2022-10-25 12:46:01,298  successful initial metaTrader
+2022-10-25 12:46:01,298  start download data from meta for eurusd
+2022-10-25 12:46:01,300  last time frame < system time : 2022-10-25 12:46:00 < 2022-10-25 12:46:01.300091
+2022-10-25 12:46:01,301  last time frame != last time downloaded , 2022-10-25 12:46:00!=2022-10-25 12:45:00
+2022-10-25 12:46:01,301  start download data from meta for audjpy
+2022-10-25 12:46:01,303  last time frame < system time : 2022-10-25 12:46:00 < 2022-10-25 12:46:01.303104
+2022-10-25 12:46:01,303  last time frame != last time downloaded , 2022-10-25 12:46:00!=2022-10-25 12:45:00
+2022-10-25 12:47:02,279  start retrieve data from meta
+2022-10-25 12:47:02,293  successful initial metaTrader
+2022-10-25 12:47:02,293  start download data from meta for eurusd
+2022-10-25 12:47:02,297  last time frame < system time : 2022-10-25 12:47:00 < 2022-10-25 12:47:02.297006
+2022-10-25 12:47:02,297  last time frame != last time downloaded , 2022-10-25 12:47:00!=2022-10-25 12:46:00
+2022-10-25 12:47:02,299  start download data from meta for audjpy
+2022-10-25 12:47:02,301  last time frame < system time : 2022-10-25 12:47:00 < 2022-10-25 12:47:02.301310
+2022-10-25 12:47:02,302  last time frame != last time downloaded , 2022-10-25 12:47:00!=2022-10-25 12:46:00
+2022-10-25 12:48:16,287  start retrieve data from meta
+2022-10-25 12:48:16,293  successful initial metaTrader
+2022-10-25 12:48:16,293  start download data from meta for eurusd
+2022-10-25 12:48:16,294  last time frame < system time : 2022-10-25 12:48:00 < 2022-10-25 12:48:16.294669
+2022-10-25 12:48:16,294  last time frame != last time downloaded , 2022-10-25 12:48:00!=2022-10-25 12:47:00
+2022-10-25 12:48:16,295  start download data from meta for audjpy
+2022-10-25 12:48:16,296  last time frame < system time : 2022-10-25 12:48:00 < 2022-10-25 12:48:16.296669
+2022-10-25 12:48:16,296  last time frame != last time downloaded , 2022-10-25 12:48:00!=2022-10-25 12:47:00
+2022-10-25 12:49:16,286  start retrieve data from meta
+2022-10-25 12:49:16,293  successful initial metaTrader
+2022-10-25 12:49:16,293  start download data from meta for eurusd
+2022-10-25 12:49:16,294  last time frame < system time : 2022-10-25 12:49:00 < 2022-10-25 12:49:16.294864
+2022-10-25 12:49:16,294  last time frame != last time downloaded , 2022-10-25 12:49:00!=2022-10-25 12:48:00
+2022-10-25 12:49:16,294  start download data from meta for audjpy
+2022-10-25 12:49:16,296  last time frame < system time : 2022-10-25 12:49:00 < 2022-10-25 12:49:16.296863
+2022-10-25 12:49:16,296  last time frame != last time downloaded , 2022-10-25 12:49:00!=2022-10-25 12:48:00
+2022-10-25 12:50:16,281  start retrieve data from meta
+2022-10-25 12:50:16,288  successful initial metaTrader
+2022-10-25 12:50:16,288  start download data from meta for eurusd
+2022-10-25 12:50:16,290  last time frame < system time : 2022-10-25 12:50:00 < 2022-10-25 12:50:16.290643
+2022-10-25 12:50:16,290  last time frame != last time downloaded , 2022-10-25 12:50:00!=2022-10-25 12:49:00
+2022-10-25 12:50:16,290  start download data from meta for audjpy
+2022-10-25 12:50:16,292  last time frame < system time : 2022-10-25 12:50:00 < 2022-10-25 12:50:16.292641
+2022-10-25 12:50:16,292  last time frame != last time downloaded , 2022-10-25 12:50:00!=2022-10-25 12:49:00
+2022-10-25 12:51:09,654  start retrieve data from meta
+2022-10-25 12:51:09,665  successful initial metaTrader
+2022-10-25 12:51:09,665  start download data from meta for eurusd
+2022-10-25 12:51:09,668  last time frame < system time : 2022-10-25 12:51:00 < 2022-10-25 12:51:09.668717
+2022-10-25 12:51:09,669  last time frame != last time downloaded , 2022-10-25 12:51:00!=2022-10-25 12:50:00
+2022-10-25 12:51:09,669  start download data from meta for audjpy
+2022-10-25 12:51:09,672  last time frame < system time : 2022-10-25 12:51:00 < 2022-10-25 12:51:09.672714
+2022-10-25 12:51:09,672  last time frame != last time downloaded , 2022-10-25 12:51:00!=2022-10-25 12:50:00
+2022-10-25 12:52:02,280  start retrieve data from meta
+2022-10-25 12:52:02,289  successful initial metaTrader
+2022-10-25 12:52:02,289  start download data from meta for eurusd
+2022-10-25 12:52:02,294  last time frame < system time : 2022-10-25 12:52:00 < 2022-10-25 12:52:02.294812
+2022-10-25 12:52:02,294  last time frame != last time downloaded , 2022-10-25 12:52:00!=2022-10-25 12:51:00
+2022-10-25 12:52:02,295  start download data from meta for audjpy
+2022-10-25 12:52:02,314  last time frame < system time : 2022-10-25 12:52:00 < 2022-10-25 12:52:02.314767
+2022-10-25 12:52:02,315  last time frame != last time downloaded , 2022-10-25 12:52:00!=2022-10-25 12:51:00
+2022-10-25 12:53:01,284  start retrieve data from meta
+2022-10-25 12:53:01,292  successful initial metaTrader
+2022-10-25 12:53:01,292  start download data from meta for eurusd
+2022-10-25 12:53:01,294  last time frame < system time : 2022-10-25 12:53:00 < 2022-10-25 12:53:01.294182
+2022-10-25 12:53:01,294  last time frame != last time downloaded , 2022-10-25 12:53:00!=2022-10-25 12:52:00
+2022-10-25 12:53:01,294  start download data from meta for audjpy
+2022-10-25 12:53:01,296  last time frame < system time : 2022-10-25 12:53:00 < 2022-10-25 12:53:01.296208
+2022-10-25 12:53:01,296  last time frame != last time downloaded , 2022-10-25 12:53:00!=2022-10-25 12:52:00
+2022-10-25 12:54:01,282  start retrieve data from meta
+2022-10-25 12:54:01,300  successful initial metaTrader
+2022-10-25 12:54:01,300  start download data from meta for eurusd
+2022-10-25 12:54:01,302  last time frame < system time : 2022-10-25 12:54:00 < 2022-10-25 12:54:01.302710
+2022-10-25 12:54:01,302  last time frame != last time downloaded , 2022-10-25 12:54:00!=2022-10-25 12:53:00
+2022-10-25 12:54:01,302  start download data from meta for audjpy
+2022-10-25 12:54:01,304  last time frame < system time : 2022-10-25 12:54:00 < 2022-10-25 12:54:01.304711
+2022-10-25 12:54:01,304  last time frame != last time downloaded , 2022-10-25 12:54:00!=2022-10-25 12:53:00
+2022-10-25 12:55:02,279  start retrieve data from meta
+2022-10-25 12:55:02,286  successful initial metaTrader
+2022-10-25 12:55:02,286  start download data from meta for eurusd
+2022-10-25 12:55:02,287  last time frame < system time : 2022-10-25 12:55:00 < 2022-10-25 12:55:02.287902
+2022-10-25 12:55:02,287  last time frame != last time downloaded , 2022-10-25 12:55:00!=2022-10-25 12:54:00
+2022-10-25 12:55:02,288  start download data from meta for audjpy
+2022-10-25 12:55:02,289  last time frame < system time : 2022-10-25 12:55:00 < 2022-10-25 12:55:02.289892
+2022-10-25 12:55:02,289  last time frame != last time downloaded , 2022-10-25 12:55:00!=2022-10-25 12:54:00

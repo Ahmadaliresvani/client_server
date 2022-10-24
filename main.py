@@ -16,7 +16,7 @@ from tools.work_with_time import convert_time_interval_metatrader_time
 if not os.path.exists(os.path.join(root_dir, "report_dir")):
     os.mkdir(os.path.join(root_dir, "report_dir"))
 
-currency_request = ["eurusd"]
+currency_request = ["eurusd", "audjpy"]
 
 # create logger for main
 main_logger = create_logger("main_logger", os.path.join(root_dir, "report_dir"))
@@ -38,7 +38,7 @@ eel.init("html_folder")
 def stop_btn_clicked():
     # clear history of retrieve data
     retrieve_data_meta.last_time_downloaded = None
-    main_logger.log("stop btn clicked")
+    main_logger.info("stop btn clicked")
 
 
 # get robo-forex time
