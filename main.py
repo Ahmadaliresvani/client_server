@@ -1,7 +1,6 @@
 import datetime
 import json
 import os
-import csv
 import time
 import eel
 import pandas as pd
