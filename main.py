@@ -1,4 +1,3 @@
-import math
 import datetime
 import json
 import os
@@ -17,7 +16,7 @@ from tools.work_with_time import convert_time_interval_metatrader_time
 if not os.path.exists(os.path.join(root_dir, "report_dir")):
     os.mkdir(os.path.join(root_dir, "report_dir"))
 
-currency_request = ["eurusd", "audjpy"]
+currency_request = ["eurusd"]
 
 # create logger for main
 main_logger = create_logger("main_logger", os.path.join(root_dir, "report_dir"))
