@@ -1,3 +1,5 @@
+import datetime
+
 import MetaTrader5 as Mt
 import pandas as pd
 import time, os
@@ -82,6 +84,7 @@ def request_price(currency_name, time_interval: int, number_retrieve_rows: int,
 
     return_data['state'] = True
     return_data['data'] = data
-    return_data["next_request_time"] = next_time_request
+    # add 1 seconds for ensure that the candle is complete
+    return_data["next_request_time"] = next_time_request + datetime.timedelta(seconds=1)
     last_time_downloaded = last_frame_time
     return return_data

@@ -54,7 +54,7 @@ def send_data_to_server(data: dict | pd.DataFrame, server_url: str, time_out: fl
         else:
             send_data_logger.info("status code is not 200 and a problem occurred!!!")
     except requests.exceptions.ReadTimeout:
-        send_data_logger.info("connection time out error")
+        send_data_logger.info("read time out error")
         return_result = {'state': 'error', 'information': 'read time out'}
     except requests.exceptions.ConnectTimeout:
         send_data_logger.info("connection time out error")
