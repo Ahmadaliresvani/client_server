@@ -6,7 +6,7 @@ var hours_miliseconds = 60 * 60 * 1000;
 var minutes_miliseconds = 60 * 1000;
 var seconds_miliseconds = 1000;
 var id_time_out_remaining = "";
-var forex_offset = -0.5*60*60*1000;
+var forex_offset = -1.5*60*60*1000;
 
 window.addEventListener("load", () => {
     
