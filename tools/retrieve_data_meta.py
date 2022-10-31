@@ -1,11 +1,14 @@
 import datetime
+import os
+import time
 
 import MetaTrader5 as Mt
 import pandas as pd
-import time, os
+import pytz
+
+from root_dir import root_dir
 from tools.logger_code import create_logger
 from tools.work_with_time import get_forex_time_naive, convert_metatrader_time_to_delta_time
-from root_dir import root_dir
 
 retrieve_logger = create_logger("retrieve_looger", os.path.join(root_dir, "report_dir"))
 
@@ -85,6 +88,12 @@ def request_price(currency_name, time_interval: int, number_retrieve_rows: int,
     return_data['state'] = True
     return_data['data'] = data
     # add 1 seconds for ensure that the candle is complete
-    return_data["next_request_time"] = next_time_request + datetime.timedelta(seconds=1)
+    time_stamp: pd.Timestamp = next_time_request + datetime.timedelta(seconds=1)
+
+    return_data["next_request_time"] = datetime.datetime(year=time_stamp.year, month=time_stamp.month,
+                                                         day=time_stamp.day, hour=time_stamp.hour,
+                                                         minute=time_stamp.minute, second=time_stamp.second,
+                                                         tzinfo=pytz.timezone("EET"))
+
     last_time_downloaded = last_frame_time
     return return_data

@@ -41,6 +41,7 @@ function clock_time_remaining(){
     if (time_remain < 0){
         next_time = "";
         $("#remain_time_clock").text("waiting")
+        debugger;
         eel.get_data(user_id, url_address, interval_time_request);
         id_time_out_remaining = "";
     }else {
@@ -58,6 +59,7 @@ function start_stop_btn(){
             this.style.backgroundColor="rgb(232, 75, 75)";
             insert_text("start program....\n");
             start_stop_time_remaining("waiting");
+            debugger;
             eel.get_data(user_id, url_address, interval_time_request);
               
         }else{
@@ -81,6 +83,7 @@ function insert_text(text){
 eel.expose(start_stop_time_remaining);
 function start_stop_time_remaining(state, new_time_=""){
     if (state=="start"){
+    debugger;
         if (id_time_out_remaining == ""){
             // means we start new time out or stopped!!!
             console.log("enter here 1");

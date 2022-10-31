@@ -55,8 +55,8 @@ def get_data(user_id, url_address, time_interval):
     eel.insert_text("try for retrieve data from meta\n")
     main_logger.info("request from js to get data")
     result = request_price(
-        currency_request,
-        convert_time_interval_metatrader_time(time_interval), 70, 5, eel.insert_text)
+        currency_request,convert_time_interval_metatrader_time(time_interval),
+        number_retrieve_rows=80, sleep_time_for_wait=5,  object_for_report=eel.insert_text)
 
     if not result["state"]:
         main_logger.info("unsuccessful in request price from meta")
@@ -70,9 +70,10 @@ def get_data(user_id, url_address, time_interval):
         main_logger.info("start send data to server")
         send_data(prepare_data(result["data"]), user_id=user_id, url_address=url_address)
         # define next time request
-        # +03:00 time zone EET
+        # this is timezone EET convert to local and send to js
+        result["next_request_time"] = result["next_request_time"].astimezone()
         eel.start_stop_time_remaining("start",
-                                      result["next_request_time"].strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "+03:00")
+                                      result["next_request_time"].strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "+03:30")
 
 
 def prepare_data(data):
